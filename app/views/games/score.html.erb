@@ -1,0 +1,8 @@
+<div class="text-center m-4">
+  <h1>Now your results</h1>
+  <p>Your word: <%= @word %></p>
+  <p>Time Taken to answer: <%= @end_time %>s</p>
+  <p>Score: <%=  @total_score %></p>
+  <%= @message %>
+  <p class="m-4 p-3"><%= link_to "Play again", "/new" %></p>
+</div>
